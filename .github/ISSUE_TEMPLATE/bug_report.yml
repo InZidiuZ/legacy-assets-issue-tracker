@@ -1,0 +1,40 @@
+name: Bug Report
+description: Please be as detailed and descriptive as possible.
+labels: ["bug"]
+title: "Bug report - "
+body:
+  - type: markdown
+    attributes:
+      value: "Before opening a new issue, please search existing issues:  https://github.com/InZidiuZ/legacy-assets-issue-tracker/issues"
+  - type: input
+    id: reporter
+    attributes:
+      label: Reporter
+      description: Who is reporting this? Please include discord name.
+      placeholder: John (John#0001)
+    validations:
+      required: true          
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Write a short summary of what you are experiencing.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "## Additional Information"
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots/Videos
+      description: Provide any screenshots and/or videos demonstrating the issue being experienced.
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Note
+      description: Any extra notes
+    validations:
+      required: false

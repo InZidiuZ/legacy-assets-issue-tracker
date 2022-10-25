@@ -1,0 +1,37 @@
+name: Suggestion
+description: When creating a suggestion, consider how it effects RP and the economy.
+labels: ["suggestion"]
+title: "Suggestion - "
+body:
+  - type: markdown
+    attributes:
+      value: "Before opening a new issue, please search existing issues:  https://github.com/InZidiuZ/legacy-assets-issue-tracker/issues"    
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Who is reporting this? Please include discord name.
+      placeholder: John (John#0001)
+    validations:
+      required: true       
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Write a summary of what your suggestion is about.
+    validations:
+      required: true
+  - type: textarea
+    id: link
+    attributes:
+      label: Link
+      description: If there are any links to what you're suggesting, please add them here.
+    validations:
+      required: false
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Why would your suggestion be a good addition to Legacy?
+    validations:
+      required: true

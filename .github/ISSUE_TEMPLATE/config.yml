@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: OPFW Issue Tracker
-    url: https://github.com/InZidiuZ/legacy-assets-issue-tracker
+    url: https://github.com/InZidiuZ/op-framework-issue-tracker
     about: If your Issue/Suggestion does not relate to assets (Such as clothing, cars, etc), please raise it here.
   - name: OPFW Discord
     url: https://discord.gg/opfw

@@ -5,7 +5,7 @@ title: "Suggestion - "
 body:
   - type: markdown
     attributes:
-      value: "Before opening a new issue, please search existing issues: https://github.com/InZidiuZ/legacy-assets-issue-tracker/issues\n\nAlso please **do not purchase assets right away**, ask first to avoid wasting money."    
+      value: "Before opening a new issue, please search existing issues: https://github.com/InZidiuZ/legacy-assets-issue-tracker/issues\n\nAlso please **do not purchase assets right away**, ask first to avoid wasting money. You can do so by creating a ticket in the opfw discord."    
   - type: input
     id: name
     attributes:
